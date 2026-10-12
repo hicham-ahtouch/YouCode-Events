@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.hero {
+padding: 32 px;
+opacity: 1;
+background-color:#FFEDD5;
+width: 100%;
+align-items: left;
+display: flex;
+flex-direction: column;
+padding: 64px 32px 64px 32px;
+}
+
+.hero h1 {
+    font-size: 70px ;
+    font-family: Bricolage Grotesque ;
+    color:#1C1917;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color:#57534E ;
+    font-size: 20px;
+}
+
+.All {
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20%;
+    background-color:#FFFFFF;
+}
+
+
+.Mapage {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+}
+
+.Mapage h2 {
+    font-size: 32px ;
+    font-family: Bricolage Grotesque ;
+    color:;
+    margin-bottom: 10px;
+}
+
+.Mapage p {
+    color: ;
+    font-size: 20px;
+}
