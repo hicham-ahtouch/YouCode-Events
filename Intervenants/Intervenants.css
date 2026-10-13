@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titre-page{
+    padding: 25px;
+    background-color: #FFEDD5;
+}
+.inside-titre{
+    width:100%;
+}
+.inside-titre h1{
+    margin-bottom: 15px;
+}
+.Intervenants{
+    padding: 30px;
+}
+.list-carte{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Inter-carte {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.Inter-carte h3{
+    margin-bottom: 10px;
+}
+.Inter-carte p{
+    margin-bottom: 10px;
+}
+.Inter-carte img{
+    margin-bottom: 10px;
+} 
