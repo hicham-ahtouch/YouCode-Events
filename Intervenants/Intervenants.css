@@ -21,19 +21,26 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px;
+    gap: 70px;
+    justify-content: center;
 }
 .Inter-carte {
-    width: 340px;
     display: flex;
+    min-width: 285px;
+    max-width: 400px;
     flex-direction: column;
-    padding: 15px;
+    /* padding: 40px; */
     border-radius: 10px;
+    border: 2px solid white;
 }
 .Inter-carte h3{
     margin-bottom: 10px;
 }
+body{
+    max-width: 1440px;
+}
 .Inter-carte p{
+    max-width: 293px;
     margin-bottom: 10px;
 }
 .Inter-carte img{
