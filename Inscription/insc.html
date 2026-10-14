@@ -22,19 +22,18 @@
      
         <div class="ins-info">
             <div class="ins-identifiants">
-              <label>Nom *</label>
-              <input type="text" placeholder="Votre nom"  class="Input-suc" required>
-               <label>Prénom *</label>
-               <input type="text" value="Salma" class="Input-suc" required>
+              <label for="nn">Nom *</label>
+              <input type="text" id="nn" placeholder="Votre nom"  class="Input-suc" required>
+               <label for="pr">Prénom *</label>
+               <input type="text"  id="pr" placeholder="Votre prénom" class="Input-suc" required>
             </div>
        
           <div class="ins-identifiants">
-               <label>Adresse e-mail *</label>
-               <input type="email" value="salma@exemple" class="Input-suc" required>
-               <label>Téléphone</label>
-               <input type="tel" placeholder="06 12 34 56 78" class="Input-suc">
+               <label for="em">Adresse e-mail *</label>
+               <input type="email" id="em" placeholder="Votre e-mail" class="Input-suc" required>
+               <label for="tel">Téléphone</label>
+               <input type="number"  id ="tel" placeholder="06 12 34 56 78" class="Input-suc">
            </div>
-        </div>
         
         <div class="ins-Events">
             <label>Événement choisi * </label>
@@ -48,12 +47,15 @@
             <option value="Rencontre">Rencontre avec des développeurs front-end</option>
             </select>
         </div>
-
+     </div>
+     
       <div class="ins-Events" >
           <label> Niveau * </label>
+          <div class="niv">
           <div><input type="radio" name="niveau">  Débutant</div>
           <div><input type="radio" name="niveau">  Intermédiaire</div>
           <div><input type="radio" name="niveau">  Avancé</div>
+      </div>
       </div>
 
            
@@ -68,7 +70,7 @@
         </div>
 
         <div class="btn-v-ins">
-         <button>Valider mon inscription</button>
+         <input type="submit" value="Valider mon inscription"></input>
         </div>
  
      </form>
