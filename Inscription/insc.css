@@ -3,57 +3,147 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 main {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    background-color: whitesmoke;
 }
 
-.hero {
-padding: 32 px;
-opacity: 1;
+.ins-hero {
+
+padding: 32px;
 background-color:#FFEDD5;
-width: 100%;
-align-items: left;
 display: flex;
 flex-direction: column;
-padding: 64px 32px 64px 32px;
 }
 
-.hero h1 {
-    font-size: 70px ;
+.ins-hero h1 {
+    font-size: 30px ;
     font-family: Bricolage Grotesque ;
     color:#1C1917;
     margin-bottom: 10px;
 }
 
-.hero p {
+.ins-hero p {
     color:#57534E ;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .All {
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 20%;
-    background-color:#FFFFFF;
+    margin: 35px 15px ;
+    border-radius: 3%;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: white;
 }
 
 
-.Mapage {
+.ins-Mapage {
    display: flex;
    flex-direction: column;
    align-items: left;
+   line-height: 0.7;
+   margin-top: 12px;
+   margin-bottom: 25px;
 }
 
-.Mapage h2 {
-    font-size: 32px ;
+.ins-Mapage h2 {
+    font-size: 30px ;
     font-family: Bricolage Grotesque ;
-    color:;
+    color:#1C1917 ;
     margin-bottom: 10px;
 }
 
-.Mapage p {
-    color: ;
-    font-size: 20px;
+.ins-Mapage p {
+    color:#57534E ;
+    font-size: 14px;
 }
+
+
+.ins-info{
+    margin: 10px;
+    width: 250px;
+}
+
+
+.ins-identifiants{
+   display: flex;
+   flex-direction: column;
+   gap: 9px;
+   margin-top: 8px;
+}
+label{
+    font-size:14px ;
+    font-weight: 600;
+
+}
+.Input-suc{
+  padding: 14px; 
+  border-radius: 6px;
+  border: 2px  ridge ;
+  width: 250px;
+}
+
+
+.ins-Events{
+   display: grid;
+   gap: 9px;
+   margin-top: 8px;
+   margin-left:10px ;
+}
+
+textarea {
+   width: 100%;
+   height: 100px;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 15px;
+   margin-left:2px ;
+}
+
+.ins-check{
+    display: flex;
+    gap: 10px;
+
+   
+}
+.ins-check input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
+.ins-check > label:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-v-ins{
+    margin: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+ 
+.btn-v-ins button{
+ font-size: 13px;
+ font-weight: 600;
+ height: 36px;
+ width: 100%;
+ border-radius:6px;
+ border: none;
+ background-color: #C2410C;
+ color :#FFFFFF;
+}
+
+
+
+
+
+/* #ouinon{
+   width: 20px;
+   height: 20px;
+} */
+
+

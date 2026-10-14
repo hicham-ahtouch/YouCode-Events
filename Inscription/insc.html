@@ -8,51 +8,69 @@
     
 <body>
 <main>
-    <section class="hero">
+     <section class="ins-hero">
             <h1>Inscription</h1>
             <p>Réservez votre place à un atelier, une conférence, un hackathon ou une rencontre. L'inscription est gratuite.</p>
-    </section>
-    <div class="All">
-    <div class="Mapage">
+     </section>
+   
+   <form class="All">
+       <div class="ins-Mapage">
             <h2>Vos informations</h2>
             <p>Les champs marqués * sont obligatoires.</p>
-    </div>
+       </div>
 
-     <form>
-        <div class="info">
-            <div classe="identifiants">
+     
+        <div class="ins-info">
+            <div class="ins-identifiants">
               <label>Nom *</label>
-              <input type="text" placeholder="Votre nom" required>
-            </div>
-
-            <div class="identifiants">
+              <input type="text" placeholder="Votre nom"  class="Input-suc" required>
                <label>Prénom *</label>
                <input type="text" value="Salma" class="Input-suc" required>
-               <small class="txtt-affirm">Champ valide.</small>
             </div>
-        </div>
-
-        <div class="info">
-           <div class="identifiants">
+       
+          <div class="ins-identifiants">
                <label>Adresse e-mail *</label>
-               <input type="email" value="salma@exemple" class="Input-err" required>
-               <small class="txtt-err">Erreur : saisissez une adresse valide, par exemple nom@domaine.ma.</small>
+               <input type="email" value="salma@exemple" class="Input-suc" required>
+               <label>Téléphone</label>
+               <input type="tel" placeholder="06 12 34 56 78" class="Input-suc">
            </div>
-          
-            <div class="identifiants">
-              <label>Téléphone</label>
-              <input type="tel" placeholder="06 12 34 56 78">
-            </div>
+        </div>
+        
+        <div class="ins-Events">
+            <label>Événement choisi * </label>
+            <select name="eve-select" class="Input-suc">
+            <option value="">Choisir un événement</option>
+            <option value="Hackathon">Hackathon Green Code</option>
+            <option value="Atelier">Atelier Flexbox et CSS Grid</option>
+            <option value="Atelier">Atelier Git Flow en pratique </option>
+            <option value="Conférence">Accessibilité Web : par où commencer ?</option>
+            <option value="Conférence">Du design au code : travailler avec Figma</option>
+            <option value="Rencontre">Rencontre avec des développeurs front-end</option>
+            </select>
         </div>
 
+      <div class="ins-Events" >
+          <label> Niveau * </label>
+          <div><input type="radio" name="niveau">  Débutant</div>
+          <div><input type="radio" name="niveau">  Intermédiaire</div>
+          <div><input type="radio" name="niveau">  Avancé</div>
+      </div>
 
-        
-     
-    
-    
-    
-    
-    </div>
+           
+       <div class="ins-Events" >
+         <label>Message (facultatif) </label>
+         <textarea placeholder="Vos attentes, vos questions…"></textarea>
+       </div>
+         
+        <div class="ins-check">
+            <input type="checkbox">
+            <label> J'accepte que mes données servent à gérer mon inscription. *</label>
+        </div>
+
+        <div class="btn-v-ins">
+         <button>Valider mon inscription</button>
+        </div>
+ 
      </form>
 </main>
 
@@ -61,6 +79,5 @@
 
 
 
-    
 </body>
 </html>
