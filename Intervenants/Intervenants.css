@@ -18,35 +18,21 @@
     padding: 30px;
 }
 .list-carte{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 70px;
-    justify-content: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+
 .Inter-carte {
-    display: flex;
-    min-width: 285px;
-    max-width: 400px;
-    flex-direction: column;
-    /* padding: 40px; */
+    padding: 10px;
     border-radius: 10px;
-    border: 2px solid white;
-}
-.Inter-carte h3{
-    margin-bottom: 10px;
-}
-/* body{
-    max-width: 1440px;
-} */
-.Inter-carte p{
-    max-width: 293px;
-    margin-bottom: 10px;
-}
-.Inter-carte img{
-    height: 96px;
-    width: 96px;
-    margin-bottom: 10px;
+    border: 2px solid #E7E5E4;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid  #E7E5E4;
 }
 .conteneur{
     padding: 20px;
@@ -55,12 +41,18 @@
 }
 .list-logos{
     display: grid;
-    gap: 40px ;
+    gap: 50px;
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
 }
 .partenaires-logos{
+    padding: 10px;
     display: grid;
     grid-template-columns: 24px 1fr;
     gap: 10px;
     align-items: center;
+    border-radius: 10px;
+    border: 2px solid  #E7E5E4;
+}
+@media screen {
+    
 }
