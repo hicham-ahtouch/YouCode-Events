@@ -22,21 +22,29 @@
      
         <div class="ins-info">
             <div class="ins-identifiants">
-              <label for="nn">Nom *</label>
-              <input type="text" id="nn" placeholder="Votre nom"  class="Input-suc" required>
-               <label for="pr">Prénom *</label>
-               <input type="text"  id="pr" placeholder="Votre prénom" class="Input-suc" required>
+              <label>
+                Nom *
+                <input type="text"placeholder="Votre nom"  class="Input-suc" required>
+              </label>
+               <label>
+                Prénom *
+                <input type="text" placeholder="Votre prénom" class="Input-suc" required>
+            </label>
             </div>
        
           <div class="ins-identifiants">
-               <label for="em">Adresse e-mail *</label>
-               <input type="email" id="em" placeholder="Votre e-mail" class="Input-suc" required>
-               <label for="tel">Téléphone</label>
-               <input type="number"  id ="tel" placeholder="06 12 34 56 78" class="Input-suc">
+               <label>
+                Adresse e-mail *
+               <input type="email" placeholder="Votre e-mail" class="Input-suc" required>
+               </label>
+               <label>
+                Téléphone
+               <input type="number" placeholder="06 12 34 56 78" class="Input-suc">
+               </label>
            </div>
         
         <div class="ins-Events">
-            <label>Événement choisi * </label>
+            <label> Événement choisi * </label>
             <select name="eve-select" class="Input-suc">
             <option value="">Choisir un événement</option>
             <option value="Hackathon">Hackathon Green Code</option>
@@ -50,23 +58,24 @@
      </div>
      
       <div class="ins-Events" >
-          <label> Niveau * </label>
+          <label id="nn">Niveau *  </label>
           <div class="niv">
           <div><input type="radio" name="niveau">  Débutant</div>
           <div><input type="radio" name="niveau">  Intermédiaire</div>
           <div><input type="radio" name="niveau">  Avancé</div>
+       
       </div>
       </div>
 
            
        <div class="ins-Events" >
-         <label>Message (facultatif) </label>
+         <label id="nn">Message (facultatif) </label>
          <textarea placeholder="Vos attentes, vos questions…"></textarea>
        </div>
          
         <div class="ins-check">
             <input type="checkbox">
-            <label> J'accepte que mes données servent à gérer mon inscription. *</label>
+            <p> J'accepte que mes données servent à gérer mon inscription. *</p>
         </div>
 
         <div class="btn-v-ins">
