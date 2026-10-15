@@ -63,9 +63,10 @@
 
 }
 .event-grill{
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
     width: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #ece4e4;
  
 }
@@ -90,15 +91,16 @@
     
 }
 .event-grill-card{
-    height: 30vh;
+    height: 232px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    padding-left: 6vw;
+    padding-left: 30px;
     
 }
 .event-grill-card>span{
+    margin-top: 10px;
     padding:  10px 14px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -108,6 +110,7 @@
     color: #57534E;
     font-size: 14px;
     line-height: 30px;
+    
    
     
 }
@@ -115,7 +118,7 @@
 margin-top: 20px;
 }
 .event-grill-card>h3{
-    width: 320px;
+    width: 90%;
     font-size: 20px;
 }
 .redt{
@@ -132,17 +135,17 @@ span>img{
 width: 13px;
 height: 15px;
 }
-@media  (min-width: 440px){
+@media (min-width: 440px){
 
     .event-grill{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(340px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
         margin: 0;
         gap: 10px;
         padding: 15px;
     }
     .event-grill-card{
-        padding: 100px;
+        padding: 10px;
         padding-left: 20px;
     }
     .card-cage{
@@ -156,5 +159,20 @@ height: 15px;
 
 
     }
+
+}
+@media (min-width:1024px){
+    .event-grill{
+        grid-template-columns: repeat(3, minmax(280px,1fr));
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .event-hero-conteneur >h1{
+        font-size: 40px;
+    }
+    .event-list-head{
+        margin-left: 50px;
+    }
+   
 
 }
