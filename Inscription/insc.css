@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Bricolage Grotesque",sans-serif;
 }
-
 
 main {
     display: flex;
@@ -21,7 +22,6 @@ flex-direction: column;
 
 .ins-hero h1 {
     font-size: 30px ;
-    font-family: Bricolage Grotesque ;
     color:#1C1917;
     margin-bottom: 10px;
 }
@@ -41,10 +41,10 @@ flex-direction: column;
 
 
 .ins-Mapage {
-   display: flex;
-   flex-direction: column;
+   display: grid ;
    align-items: left;
    line-height: 0.7;
+
    margin-top: 12px;
    margin-bottom: 25px;
 
@@ -52,7 +52,6 @@ flex-direction: column;
 
 .ins-Mapage h2 {
     font-size: 30px ;
-    font-family: Bricolage Grotesque ;
     color:#1C1917 ;
     margin-bottom: 10px;
 }
@@ -75,9 +74,12 @@ flex-direction: column;
    gap: 9px;
    margin-top: 8px;
 }
+
+
 label{
     font-size:14px ;
     font-weight: 600;
+    margin-bottom: 10px;
 
 }
 .Input-suc{
@@ -85,7 +87,6 @@ label{
   border-radius: 6px;
   border: 2px  ridge ;
   width: 90%;
- 
 }
 
 
@@ -95,12 +96,19 @@ label{
    margin-top: 8px;
 }
 
+#nn{
+    margin-left: 8.5px;
+}
+
+
 .niv {
     display: flex;
     justify-content: row ;
     flex-wrap: wrap;
     gap :20px ;
-    padding-bottom: 15px ;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
 }
 
 
@@ -110,7 +118,7 @@ textarea {
    border-radius: 6px;
    padding: 10px;
    margin-bottom: 15px;
-   margin-left:2px ;
+   margin-left:5px ;
 }
 
 .ins-check{
@@ -147,7 +155,6 @@ textarea {
  color :#FFFFFF;
 }
 
-
 @media screen and (min-width :768px) {
  
 .ins-hero{
@@ -156,7 +163,7 @@ textarea {
 
 
 .ins-hero h1 {
-   font-size: 47px;
+   font-size: 40px;
    padding: 4px;
 }
 
@@ -165,7 +172,7 @@ textarea {
 }
 
 .All{
-      margin: 60.px 35px ;
+      margin: 60px 35px ;
       height: 900px;
 }
 .ins-Mapage{
@@ -177,7 +184,7 @@ textarea {
 }
 
 .ins-Mapage p{
-    font-size: 17px;
+    font-size: 14px;
 }
 .ins-info{
   width: 100%;
@@ -205,8 +212,8 @@ textarea {
 }
 
 .ins-Events{
-     margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .niv{
  margin-left: 13px;
@@ -254,7 +261,98 @@ textarea{
 }
 }
 
+@media screen and (min-width :1440px) {
+    .All{
+        padding: 50px 20px;
+        margin: auto ;
+        margin-top: 80px;
+        height: 1120px;
+    }
 
+
+ .ins-hero{
+  padding: 65px ;
+   }
+   
+.ins-Mapage{
+    margin-left: 18px;
+}
+.ins-Mapage h2 {
+    margin-bottom: 25px;
+}
+
+.ins-Mapage p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.ins-identifiants> label {
+    margin: 20px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.Input-suc {
+    width: 100%;
+    padding: 18px;
+    font-size:20px ;
+    margin-top:15px ;
+
+}
+#ev {
+    width: 98%;
+}
+
+.ins-Events > label {
+  font-size: 22px;
+}
+
+.ins-Events{
+    margin-left: 24px;
+}
+.niv{
+ font-size: 23px;
+}
+
+.niv input[type="radio"]{
+   transform: scale(1.9);
+   margin: 15px;
+}
+
+textarea{
+    font-size: 20px;
+    height: 160px;
+    width:100% ;
+    max-width: 970px;
+    margin-top: 20px;
+}
+
+.ins-Events select {
+    width: 800px;
+}
+
+.ins-check input[type="checkbox"] {
+    transform: scale(2.1);
+    margin-left: 45px;
+    margin-bottom: 3px;
+}
+
+.ins-check p {
+    font-size: 22px;
+}
+
+.btn-v-ins{
+    margin-left:36px;
+    margin-top: 30px ;
+}
+
+.btn-v-ins input{
+ font-size: 18px;
+ height: 50px;
+ width: 100%;
+ padding: 6px;
+}
+
+}
 
     
 

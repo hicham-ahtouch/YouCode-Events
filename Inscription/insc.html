@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouCode Events - Inscription</title>
     <link rel="stylesheet" href="insc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     
 <body>
 <main>
@@ -44,8 +47,8 @@
            </div>
         
         <div class="ins-Events">
-            <label> Événement choisi * </label>
-            <select name="eve-select" class="Input-suc">
+            <label for="ev"> Événement choisi * </label>
+            <select name="eve-select"  id="ev" class="Input-suc">
             <option value="">Choisir un événement</option>
             <option value="Hackathon">Hackathon Green Code</option>
             <option value="Atelier">Atelier Flexbox et CSS Grid</option>
@@ -54,16 +57,17 @@
             <option value="Conférence">Du design au code : travailler avec Figma</option>
             <option value="Rencontre">Rencontre avec des développeurs front-end</option>
             </select>
+            
         </div>
      </div>
      
       <div class="ins-Events" >
-          <label id="nn">Niveau *  </label>
+          <label for="rad"  id="nn">Niveau *   </label> 
           <div class="niv">
-          <div><input type="radio" name="niveau">  Débutant</div>
-          <div><input type="radio" name="niveau">  Intermédiaire</div>
-          <div><input type="radio" name="niveau">  Avancé</div>
-       
+          <div><input type="radio" id="rad" name="niveau">  Débutant</div>
+          <div><input type="radio" id="rad" name="niveau">  Intermédiaire</div>
+          <div><input type="radio" id="rad" name="niveau">  Avancé</div>
+     
       </div>
       </div>
 
