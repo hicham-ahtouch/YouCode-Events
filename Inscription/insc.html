@@ -27,28 +27,50 @@
             <div class="ins-identifiants">
               <label>
                 Nom *
-                <input type="text"placeholder="Votre nom"  class="Input-suc" required>
-              </label>
+                <input type="text"
+                placeholder="Votre nom"  
+                class="Input-suc" 
+                 minlength="3"
+                 maxlength="20"
+                 required>
+                 <span class="err">Erreur</span>
+                 <span class="val">Champ valide</span>
+                 </label>
+              <!-- le min et maxlength son des proprietes donnes pour valider les info enter par lutilisateur -->
                <label>
                 Prénom *
-                <input type="text" placeholder="Votre prénom" class="Input-suc" required>
-            </label>
+                <input type="text" 
+                 placeholder="Votre prénom" 
+                 class="Input-suc"   
+                 minlength="3"
+                 maxlength="20"
+                 required>
+                 <span class="err">Erreur</span>
+                 <span class="val">Champ valide.</span>
+                </label>
             </div>
        
           <div class="ins-identifiants">
                <label>
                 Adresse e-mail *
-               <input type="email" placeholder="Votre e-mail" class="Input-suc" required>
+               <input type="email" placeholder="Votre e-mail"  class="Input-suc"  required>
+               <span class="err">Erreur : saisissez une adresse valide, par exemple nom@domaine.ma.</span>
+               <span class="val">Champ valide.</span>
                </label>
                <label>
                 Téléphone
-               <input type="number" placeholder="06 12 34 56 78" class="Input-suc">
+               <input type="tel" 
+               placeholder="06 12 34 56 78" 
+               pattern="0[5-7][0-9]{8}"
+               class="Input-suc" >
+               <span class="err">Erreur : Entrez 10 chiffres, sans espaces.</span>
+               <span class="val">Champ valide.</span>
                </label>
            </div>
         
         <div class="ins-Events">
             <label for="ev"> Événement choisi * </label>
-            <select name="eve-select"  id="ev" class="Input-suc">
+            <select name="eve-select"  id="ev" class="Input-suc" required>
             <option value="">Choisir un événement</option>
             <option value="Hackathon">Hackathon Green Code</option>
             <option value="Atelier">Atelier Flexbox et CSS Grid</option>
@@ -64,7 +86,7 @@
       <div class="ins-Events" >
           <label for="rad"  id="nn">Niveau *   </label> 
           <div class="niv">
-          <div><input type="radio" id="rad" name="niveau">  Débutant</div>
+          <div><input type="radio" id="rad" name="niveau" required>  Débutant</div>
           <div><input type="radio" id="rad" name="niveau">  Intermédiaire</div>
           <div><input type="radio" id="rad" name="niveau">  Avancé</div>
      
@@ -78,7 +100,7 @@
        </div>
          
         <div class="ins-check">
-            <input type="checkbox">
+            <input type="checkbox" required>
             <p> J'accepte que mes données servent à gérer mon inscription. *</p>
         </div>
 
