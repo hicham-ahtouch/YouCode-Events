@@ -1,0 +1,445 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 20px 20px;
+   
+}
+.logo{
+    display: flex;
+    margin: 0;
+    font-family: Bricolage Grotesque, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0px;
+cursor: pointer;
+}
+#logo2{
+    color:#C2410C;
+    cursor: pointer;
+}
+.onglet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+cursor: pointer;
+}
+.onglet li:hover{
+    color: #C2410C;
+    border-bottom: solid #C2410C 2px;
+    cursor: pointer;
+}
+.button-inscri{
+    border:none;
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+width: 71px;
+height: 24px;
+height: 48px;
+width: 119px;
+background-color: #C2410C;
+border-radius: 5px;
+color: white;
+}
+.button-inscri:hover{
+    background-color: #8e5b47;
+}
+body{
+    margin: 0;
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFEDD5;
+    padding:    100px;
+
+}
+.S67{
+    color: #0F766E;
+    background-color:#CCFBF1;
+    width: 130px;
+    height: 28px;
+    padding-left:20px ;
+    padding-top: 10px;
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+border-radius: 20px;
+}
+.evenment{
+    font-family: Bricolage Grotesque, sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: -0.5px;
+
+}
+.p{
+    font-family: DM Sans, sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0px;
+color:#57534E ;
+}
+.button-sec1{
+    width: 204px;
+    height: 48px;
+    margin: 0px 20px 20px 0px;
+}
+#voir1{
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: white;
+background-color: #C2410C;
+border: 0;
+border-radius: 10px;
+}
+#inscription{
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #C2410C;
+background-color: white;
+border-color: #C2410C;
+border: 102px;
+border-radius: 10px;
+}
+#inscription:hover{
+    background-color:rgb(193, 162, 162)
+}
+#voir1:hover{
+    background-color: #b8836f;
+}
+.img-sec1{
+    height: 340px;
+    width: 480px;
+    background-color: white;
+    border-radius: 15px;
+}
+.sec2-titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 0px 100px;
+}
+.sec2-titre h2{
+    font-family: Bricolage Grotesque, sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.5px;
+
+}
+.sec2-titre a{
+    text-decoration: none;
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #C2410C;
+}
+.sec2-contenu {
+    margin:50px 50px 200px 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+.p{
+    display: inline;
+}
+.cont{
+    margin-top:50px ;
+    font-family: DM Sans, sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+}
+.lien{
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+text-decoration: none;
+line-height: 20px;
+letter-spacing: 0px;
+padding-top: 70px;
+color: #C2410C;
+}
+.img-sec3{
+    width: 382px;
+    height: 180px;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+.Atelier{
+    font-family: DM Sans, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+color:#C2410C;
+background-color: #FFEDD5;
+width: 70px;
+height: 20px;
+padding: 2px 20px 0px 30px;
+border-radius: 15px;
+}
+#h5-sec2{
+    background-color: #CCFBF1;
+    color: #0F766E;
+    padding-left: 20px;
+}
+.titre{
+    font-family: Bricolage Grotesque, sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0px;
+}
+.lien:hover{
+    color: #c28973;
+}
+.part1{
+    border: 10px;
+    border-radius: 19px;
+}
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #C2410C;
+}
+
+.num{
+    font-family: Bricolage Grotesque, sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+line-height: 46px;
+letter-spacing: -0.5px;
+color:white ;
+}
+.num1{
+    font-family: DM Sans,sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: white;
+}
+.div1-numa{
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width:400px) {
+  *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.sec1{
+    width: 100%;
+height: 100%;
+display: flex;
+flex-direction:column ;
+background-color: #FFEDD5;
+padding: 20% 10% 10% 10%;
+}
+
+.S67{
+    font-family: DM Sans,sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+margin-bottom: 20px;
+width: 50%;
+background-color: #CCFBF1;
+padding-left: 7px;
+color: #0F766E;
+border-radius: 20px;
+}
+.evenment{
+    font-family: Bricolage Grotesque,sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.5px;
+height: 100%;
+width: 100%;
+}
+
+
+.section3{
+    display: none;
+}
+.p{
+    font-family: DM Sans,sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0px;
+color: #57534E;
+padding-top: 10%;
+}
+.sec1-button > button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    margin: 10px;
+    width: 95%;
+    height:40px;
+    align-items: center;
+    padding-top: 10px;
+}
+#voir1{
+    color:#FFFFFF ;
+    background-color: #C2410C;
+    font-family: DM Sans,sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0px;
+}
+#inscription{
+    background-color: #FFFFFF;
+    color: #C2410C;
+    border:solid 2px;
+    border-color: #C2410C;
+    font-family: DM Sans,sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+
+}
+#voir1:hover{
+   background-color: #d28263;
+}
+#inscription:hover{
+    background-color: hsl(0, 58%, 88%);
+}
+.img-sec1{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 15%;
+    
+}
+.Prochains-evenements{
+    display: flex;
+    flex-direction: column;
+    background-color: #d3b7b7;
+
+}
+.sec2-titre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    font-family: Bricolage Grotesque,sans-serif;
+font-weight: 700;
+font-style: Bold;
+font-size: 17px;
+line-height: 38px;
+letter-spacing: -0.5px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    padding:2px;
+    border-radius: 20px;
+    box-shadow: #FFEDD5;
+    
+}
+.p{
+    display: inline;
+    font-family: DM Sans,sans-serif;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0px;
+}
+ object{
+    border-radius: 20px;
+
+}
+.lien{
+    text-decoration: none;
+
+}.sec2-titre>a{
+    text-decoration: none;
+    color: #C2410C;
+    font-family: DM Sans,sans-serif;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+padding-bottom: 20px;
+}
+.img-sec3{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.sec2-contenu{
+    background-color: #FFFFFF;
+    width: 90%;margin-left: 20px;
+}
+}
+
+
+
+
+
+
+
+
