@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="titre">
+                <h1>YouCode<span>Event</span></h1>
+                <div class="part2"><svg id="logo" class="menu-btn" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 48 48" width="48px" height="48px">
+                        <path
+                            d="M 24 4 C 12.954 4 4 12.954 4 24 C 4 35.046 12.954 44 24 44 C 35.046 44 44 35.046 44 24 C 44 12.954 35.046 4 24 4 z M 24 7 C 33.374 7 41 14.626 41 24 C 41 33.374 33.374 41 24 41 C 14.626 41 7 33.374 7 24 C 7 14.626 14.626 7 24 7 z M 15.5 17 A 1.50015 1.50015 0 1 0 15.5 20 L 32.5 20 A 1.50015 1.50015 0 1 0 32.5 17 L 15.5 17 z M 15.523438 23 A 1.50015 1.50015 0 1 0 15.523438 26 L 32.5 26 A 1.50015 1.50015 0 1 0 32.5 23 L 15.523438 23 z M 15.5 29 A 1.50015 1.50015 0 1 0 15.5 32 L 32.476562 32 A 1.50015 1.50015 0 1 0 32.476562 29 L 15.5 29 z" />
+                    </svg></div>
+            </div>
+            <div>
+                <ul class="liste-2">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Événements</a></li>
+                    <li><a href="#">Intervenants</a></li>
+                    <li><button>S'inscrire</button></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <div class="onglet hidden">
+        <ul class="onglet-phone">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Événements</a></li>
+            <li><a href="#">Intervenants</a></li>
+            <li><button>S'inscrire</button></li>
+        </ul>
+    </div>
+    <main>
+        <iframe src="" frameborder="0"></iframe>
+    </main>
+    <footer>
+  <section class="footer-container"  >
+        <div class="footr-logo">
+            <h1>YouCode Events</h1>
+            <p>Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>
+        </div> 
+        <div class="footr-navig" >
+            <h1>Navigation</h1>
+            <div  >
+                <a>Accueil</a>
+                <a>Événements</a>
+                <a>Intervenants et partenaires</a>
+                <a>Inscription</a>
+            </div>
+        </div> 
+        <div class="footr-contact" >
+            <h1>Contact</h1>
+            <div>contact@youcode-events.example</div>
+            <div>Youssoufia · Safi · Nador</div>
+        </div> 
+    </section>
+        <div class="footer-coprit" >
+            <p>© 2026 YouCode Events — site fictif réalisé en formation.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const onglet = document.querySelector('.onglet')
+
+        function showMenu() {
+            onglet.classList.toggle('hidden')
+
+        }
+        logo.addEventListener('click', showMenu)
+
+    </script>
+</body>
+
+</html>
