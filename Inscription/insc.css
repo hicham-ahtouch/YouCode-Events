@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque",sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.ins-hero {
+
+padding: 32px;
+background-color:#FFEDD5;
+display: flex;
+flex-direction: column;
+}
+
+.ins-hero h1 {
+    font-size: 30px ;
+    color:#1C1917;
+    margin-bottom: 10px;
+}
+
+.ins-hero p {
+    color:#57534E ;
+    font-size: 15px;
+}
+
+.All {
+    margin: 35px 15px ;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+
+.ins-Mapage {
+   display: grid ;
+   align-items: left;
+   line-height: 0.7;
+
+   margin-top: 12px;
+   margin-bottom: 25px;
+
+}
+
+.ins-Mapage h2 {
+    font-size: 30px ;
+    color:#1C1917 ;
+    margin-bottom: 10px;
+}
+
+.ins-Mapage p {
+    color:#57534E ;
+    font-size: 13px;
+}
+
+
+.ins-info{
+    margin: 10px;
+    width: 100%;
+}
+
+
+.ins-identifiants{
+   display: flex;
+   flex-direction: column;
+   gap: 9px;
+   margin-top: 8px;
+   margin-bottom: 12px;
+}
+
+
+label{
+    font-size:14px ;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.Input-suc{
+  padding: 14px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid  ;
+  outline: none;
+  transition: 0.3s  3px solid;
+  width: 90%;
+}
+
+/* pour ajouter un outline quand l input est valide ou invalide */
+
+.Input-suc:invalid:not(:placeholder-shown){ 
+    border-color: #B91C1C;
+}
+
+.Input-suc:valid:not(:placeholder-shown){
+    border-color:#15803D;
+}
+/* mes mssgs d'erreurs */
+.err , .val {
+ display: none;
+  font-size: 12px;
+ font-weight: 400;
+ margin-left: 2px;
+}
+input:invalid:not(:placeholder-shown) ~ .err{
+    color: #B91C1C;
+    display: block;
+}
+
+input:valid:not(:placeholder-shown) ~ .val{
+    color: #15803D;
+    display: block;
+}
+
+.ins-Events{
+   display: grid;
+   gap: 9px;
+   margin-top: 8px;
+}
+
+#nn{
+    margin-left: 8.5px;
+}
+
+#ev {
+    border-color: grey;
+}
+
+.niv {
+    display: flex;
+    justify-content: row ;
+    flex-wrap: wrap;
+    gap :20px ;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+textarea {
+   width: 100%;
+   height: 100px;
+   border-radius: 6px;
+   padding: 10px;
+   margin-bottom: 15px;
+   margin-left:5px ;
+}
+
+.ins-check{
+    display: flex;
+    gap: 10px;
+
+   
+}
+.ins-check input[type="checkbox"] {
+    transform: scale(1.4);
+    margin-left: 17px;
+    margin-bottom: 15px;
+}
+
+.niv input:checked {
+    accent-color: #C2410C;
+}
+
+.ins-check  p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-v-ins{
+    margin: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+ 
+.btn-v-ins input{
+ font-size: 13px;
+ font-weight: 600;
+ height: 36px;
+ width: 100%;
+ border-radius:6px;
+ border: none;
+ background-color: #C2410C;
+ color :#FFFFFF;
+}
+
+@media screen and (min-width :768px) {
+ 
+.ins-hero{
+    padding: 40px ;
+}
+
+
+.ins-hero h1 {
+   font-size: 40px;
+   padding: 4px;
+}
+
+.ins-hero p{
+    font-size:18px;
+}
+
+.All{
+      margin: 60px 35px ;
+      height: 1000px;
+}
+.ins-Mapage{
+    margin-left: 18px;
+}
+.ins-Mapage h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.ins-Mapage p{
+    font-size: 14px;
+}
+.ins-info{
+  width: 100%;
+}
+
+label > span {
+    font-size: 12px;
+}
+
+.ins-identifiants{
+    display: flex;
+    flex-direction: row;
+
+}
+.ins-identifiants> label {
+    width: 100%;
+    gap: 10px;
+    margin :20px ;
+    font-size: 15px;
+}
+.Input-suc {
+    width: 100%;
+    padding: 16px;
+    font-size:14px ;
+    margin-top:10px ;
+}
+
+.ins-Events > label {
+  font-size: 15px;
+}
+
+.ins-Events{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.niv{
+ margin-left: 13px;
+ font-size: 16px;
+}
+
+#nn{
+    margin: 15px;
+    margin-bottom: 5px;
+}
+
+textarea{
+    margin-left: 15px;
+    font-size:  16px;
+    height: 126px;
+    width:99% ;
+    margin-bottom: 30px;
+}
+
+.ins-check{
+    display: flex;
+    gap: 20px;
+}
+
+
+.ins-check input[type="checkbox"] {
+    transform: scale(1.8);
+    margin-left: 42px;
+    margin-bottom: 3px;
+}
+
+.ins-check p {
+    font-size: 16px;
+}
+
+.btn-v-ins{
+    margin-left:34.6px;
+    width: 240px;
+}
+
+.btn-v-ins input{
+ font-size: 16px;
+ height: 50px;
+ width: 100%;
+}
+}
+
+@media screen and (min-width :1024px) {
+    .All{
+        padding: 50px 20px;
+        max-width: 800px;
+        margin: auto ;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        height: 1220px;
+    }
+
+
+ .ins-hero{
+  padding: 65px ;
+   }
+   
+.ins-Mapage{
+    margin-left: 18px;
+}
+.ins-Mapage h2 {
+    margin-bottom: 25px;
+}
+
+.ins-Mapage p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.ins-identifiants> label {
+    margin: 20px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+label > span {
+    font-size: 16px;
+}
+.err , .val {
+ font-size: 16px;
+}
+.Input-suc {
+    width: 100%;
+    padding: 18px;
+    font-size:20px ;
+    margin-top:15px ;
+
+}
+#ev {
+    width: 98%;
+
+}
+
+.ins-Events > label {
+  font-size: 22px;
+}
+
+.ins-Events{
+    margin-left: 24px;
+}
+.niv{
+ font-size: 23px;
+}
+
+.niv input[type="radio"]{
+   transform: scale(1.7);
+   margin: 15px;
+}
+
+textarea{
+    font-size: 20px;
+    height: 160px;
+    width:100% ;
+    max-width: 970px;
+    margin-top: 20px;
+}
+
+.ins-Events select {
+    width: 800px;
+}
+
+.ins-check input[type="checkbox"] {
+    transform: scale(2.1);
+    margin-left: 45px;
+    margin-bottom: 3px;
+}
+
+.ins-check p {
+    font-size: 22px;
+}
+
+.btn-v-ins{
+    margin-left:36px;
+    margin-top: 30px ;
+}
+
+.btn-v-ins input{
+ font-size: 18px;
+ height: 50px;
+ width: 100%;
+ padding: 6px;
+}
+
+} 
+
+
+

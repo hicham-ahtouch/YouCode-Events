@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouCode Events - Inscription</title>
+    <link rel="stylesheet" href="insc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+<body>
+<main>
+     <section class="ins-hero">
+            <h1>Inscription</h1>
+            <p>Réservez votre place à un atelier, une conférence, un hackathon ou une rencontre. L'inscription est gratuite.</p>
+     </section>
+   
+   <form class="All">
+       <div class="ins-Mapage">
+            <h2>Vos informations</h2>
+            <p>Les champs marqués * sont obligatoires.</p>
+       </div>
+
+     
+        <div class="ins-info">
+            <div class="ins-identifiants">
+              <label>
+                Nom *
+                <input type="text"
+                placeholder="Votre nom"  
+                class="Input-suc" 
+                 minlength="3"
+                 maxlength="20"
+                 required>
+                 <span class="err">Erreur</span>
+                 <span class="val">Champ valide</span>
+                 </label>
+              <!-- le min et maxlength son des proprietes donnes pour valider les info enter par lutilisateur -->
+               <label>
+                Prénom *
+                <input type="text" 
+                 placeholder="Votre prénom" 
+                 class="Input-suc"   
+                 minlength="3"
+                 maxlength="20"
+                 required>
+                 <span class="err">Erreur</span>
+                 <span class="val">Champ valide.</span>
+                </label>
+            </div>
+       
+          <div class="ins-identifiants">
+               <label>
+                Adresse e-mail *
+               <input type="email" placeholder="Votre e-mail"  class="Input-suc"  required>
+               <span class="err">Erreur : saisissez une adresse valide, par exemple nom@domaine.ma.</span>
+               <span class="val">Champ valide.</span>
+               </label>
+               <label>
+                Téléphone
+               <input type="tel" 
+               placeholder="06 12 34 56 78" 
+               pattern="0[5-7][0-9]{8}"
+               class="Input-suc" >
+               <span class="err">Erreur : Entrez 10 chiffres, sans espaces.</span>
+               <span class="val">Champ valide.</span>
+               </label>
+           </div>
+        
+        <div class="ins-Events">
+            <label for="ev"> Événement choisi * </label>
+            <select name="eve-select"  id="ev" class="Input-suc" required>
+            <option value="">Choisir un événement</option>
+            <option value="Hackathon">Hackathon Green Code</option>
+            <option value="Atelier">Atelier Flexbox et CSS Grid</option>
+            <option value="Atelier">Atelier Git Flow en pratique </option>
+            <option value="Conférence">Accessibilité Web : par où commencer ?</option>
+            <option value="Conférence">Du design au code : travailler avec Figma</option>
+            <option value="Rencontre">Rencontre avec des développeurs front-end</option>
+            </select>
+            
+        </div>
+     </div>
+     
+      <div class="ins-Events" >
+          <label for="rad"  id="nn">Niveau *   </label> 
+          <div class="niv">
+          <div><input type="radio" id="rad" name="niveau" required>  Débutant</div>
+          <div><input type="radio" id="rad" name="niveau">  Intermédiaire</div>
+          <div><input type="radio" id="rad" name="niveau">  Avancé</div>
+     
+      </div>
+      </div>
+
+           
+       <div class="ins-Events" >
+         <label id="nn">Message (facultatif) </label>
+         <textarea placeholder="Vos attentes, vos questions…"></textarea>
+       </div>
+         
+        <div class="ins-check">
+            <input type="checkbox" required>
+            <p> J'accepte que mes données servent à gérer mon inscription. *</p>
+        </div>
+
+        <div class="btn-v-ins">
+         <input type="submit" value="Valider mon inscription"></input>
+        </div>
+ 
+     </form>
+</main>
+
+
+
+
+
+
+</body>
+</html>
